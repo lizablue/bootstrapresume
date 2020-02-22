@@ -8,19 +8,29 @@
     padding: 0px;
 }
 
+/* skills and experience section colors */
 h3 {
     color: #2f4f46;
 }
 
+/* Helen Keller quote format */
 .quote {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
+/* resize images to best fit mobile and desktop */
 img {
     height: 250px;
     width: 200px;
     object-fit: cover;
+    object-position: 50% 20%;
     overflow: hidden;
 }
+
+/* resize 2 taller images so relevant content was visible on all devices */
+.tall {
+    object-position: 50% 80%;
+}
+
