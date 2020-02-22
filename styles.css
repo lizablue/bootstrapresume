@@ -1,3 +1,4 @@
+
 .jumbotron {
     background-color: #2f4f46;
     color: white;
@@ -9,4 +10,17 @@
 
 h3 {
     color: #2f4f46;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    overflow: hidden;
 }
